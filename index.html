@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+  <div id="loader">
+    <div id="loaderInner"></div>
+  </div>
+  <div id="wrapper">
+    {% include menu.html %}
+    {% include about.html %}
+    <section id="resume" class="offset section bBottom">
+      <div class="container clearfix">
+        <div class="intro">
+          <h1 class="titleBig">resume</h1>
+          <p>Working on developing systems since 2011. Initially with Java. </p>
+          <p>Today I work with Ruby on Rails developments, focused on developing Back End. </p>
+        </div>
+        <div class="ten columns resumeDetails top">
+          {% include employment.html %}
+          {% include education.html %}
+        </div>
+        <div class="six columns skills top">
+          {% include programming_skills.html %}
+          {% include graphic_skills.html %}
+          {% include management_skills.html %}
+          {% include language_skills.html %}
+          {% include personal_skills.html %}
+          <div class="getCv">
+            <a href="https://www.dropbox.com/s/489d2r6ndt08pnz/Bruno%20Meira%20Melhado.pdf?dl=0" target="_blank"><i class="icon-down-circled"></i>
+              <h3>Download My CV</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>   
+    {% include footer.html %}
+  </div>
+  {% include scripts.html %}
