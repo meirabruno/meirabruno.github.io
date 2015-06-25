@@ -179,6 +179,7 @@ nav#mainNav li, ul#category li a, .projDesc span, .cForm input[type="text"]{font
 	.add-bottom { margin-bottom: 20px !important; }
 	.offset{padding-top:60px; padding-bottom:60px;}
 	.section{text-align:center;}
+	.section.post{text-align:justify;}
 	.section h2{text-align:left;}
 	.bBottom{border-bottom:3px solid #efefef;}
 	.top{margin-top:60px;}
