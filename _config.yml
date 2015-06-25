@@ -12,6 +12,7 @@ github_username:  jekyll
 permalink: /:title:output_ext
 
 # Build settings
+highlighter: rouge
 markdown: kramdown
 sass:
   sass_dir: _sass
