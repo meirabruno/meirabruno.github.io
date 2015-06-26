@@ -4,10 +4,10 @@ email: bruno.meiramelhado@gmail.com
 description: "Playing with ruby everyday, learning about ruby, rails, rspec, js, css, tdd, bdd. Getting connected with whats happening on ruby and rails comunity."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://meirabruno.github.io" # the base hostname & protocol for your site
-twitter_username: brunomeira
-github_username:  meirabruno
-phone: (11) 99937-6783
-city: Guarulhos - SP
+twitter_username: "brunomeira"
+github_username:  "meirabruno"
+phone: "(11) 99937-6783"
+city: "Guarulhos - SP"
 
 permalink: /:title:output_ext
 
