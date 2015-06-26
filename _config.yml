@@ -9,6 +9,7 @@ github_username:  meirabruno
 permalink: /:title:output_ext
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
 sass:
   sass_dir: _sass
