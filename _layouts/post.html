@@ -5,20 +5,22 @@
   <div id="loader">
     <div id="loaderInner"></div>
   </div>
-  <div id="wrapper">
+  <div>
     {% include menu.html %}
     <section class="offset post bBottom">
       <div class="container clearfix">
-        
-        {{ content }}
-        
+        <div class="intro">
+        <h1 class="titleBig">{{ page.title }}</h1>
+
+        <p class="date">{{ page.date | date: "%d %b, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+          {{ content }}
+
+        </div>
       </div>
-    </section>   
+    </section>
     {% include footer.html %}
   </div>
   {% include scripts.html %}
-
-  
-  
 </body>
 </html>

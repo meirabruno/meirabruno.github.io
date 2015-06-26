@@ -124,7 +124,7 @@ nav#mainNav a.active:after{
 .about{
 	position :relative;
 	margin-top:68px;
-	
+
 }
 
 .lightGrey{
@@ -225,7 +225,7 @@ nav#mainNav a.active:after{
 .aboutTitle h1{
 	color:#343434;
 	text-transform:uppercase;
-	
+
 }
 
 .aboutTitle h1 span{
@@ -234,7 +234,7 @@ nav#mainNav a.active:after{
 	font-size:14px;
 	margin-top:8px;
 	text-transform:none;
-	
+
 }
 
 
@@ -316,8 +316,8 @@ nav#mainNav a.active:after{
 
 .em, .ed{
 	margin-bottom:40px;
-	
-	
+
+
 }
 
 .dtIco, .det{
@@ -375,7 +375,7 @@ nav#mainNav a.active:after{
 	background: -ms-linear-gradient(top,  #efefef 1%,#efefef 75%,#ffffff 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #efefef 1%,#efefef 75%,#ffffff 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-	
+
     bottom: 0;
     content: "";
     left: 4%;
@@ -448,8 +448,44 @@ nav#mainNav a.active:after{
 
 
 .skills .titleSmall {
-		margin-bottom:35px;
+  margin-bottom:35px;
 }
+
+.postList .titleSmall {
+  margin-bottom:20px;
+  font-size: 18px;
+}
+
+.postList .date {
+  font-size: 12px;
+}
+
+.intro .titleBig{
+    text-transform:uppercase;
+    position:relative;
+    display:inline-block;
+    margin-bottom:15px;
+    font-size:16px;
+  }
+
+.intro .titleBig:after {
+      border-bottom: 3px solid #343434;
+      content: "";
+      display: block;
+      position: absolute;
+      right: 1px;
+      top: 20px;
+      width: 15px;
+      z-index: 0;
+  }
+
+  .intro .date{
+    margin-bottom: 20px;
+  }
+
+  .postList .date{
+    margin-bottom: 0px;
+  }
 
 .widget{
 	padding-bottom:30px;
@@ -560,7 +596,7 @@ nav#mainNav a.active:after{
 }
 
 ul#category {
-	
+
     display: inline-block;
     position: relative;
 }
@@ -568,7 +604,7 @@ ul#category {
 
 ul#category li {
     display: inline-block;
-	
+
 }
 
 
@@ -577,7 +613,7 @@ ul#category li a {
     display: inline-block;
     padding: 10px 18px;
 	position:relative;
-	
+
 }
 
 
@@ -611,7 +647,7 @@ ul#category li a:hover {
 }
 
 .item a .desc {
-	
+
     background: rgba(3, 204, 133, 0.95);
     height: 100%;
     position: absolute;
@@ -622,7 +658,7 @@ ul#category li a:hover {
 	top:0;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box; /* Firefox */
-	
+
 }
 
 .item a .desc h3{
@@ -647,7 +683,7 @@ ul#category li a:hover {
 
 
 .cForm {
-	
+
 	text-align:left;
 }
 
@@ -738,7 +774,7 @@ ul#category li a:hover {
 /*Footer*/
 
 .footer{
-	
+
 }
 
 .footer.offset{
@@ -840,14 +876,14 @@ ul#category li a:hover {
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	#loaderInner {margin: -50px 0 0 -30px;}
 	.dtIco span.date{font-family: 'open_sansregular';font-style:italic;}
-	
+
 }
 
 
 
 /* Tablet Portrait size -> standard 960 */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	
+
 	#loaderInner {margin: -50px 0 0 -30px;}
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	.dtIco span.date{font-family: 'open_sansregular';font-style:italic;}
@@ -857,35 +893,35 @@ ul#category li a:hover {
 	.getCv h3{padding:15px 14px;}
 	.item{width: 256px !important;}
 	.employment:before, .education:before{left:5%;}
-	
-	
+
+
 }
 
 
 /* Mobile Landscape Size -> Tablet Portrait size*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
-	
+
 	#loaderInner {margin: -50px 0 0 -30px;}
 	.dtIco span.date{font-family: 'open_sansregular';font-style:italic;}
 	.logo, nav#mainNav{float:none;}
 		nav#mainNav{margin-right:0;margin-top:69px;}
-		
+
 		nav#mainNav ul{display:none;margin-bottom:10px;}
 		nav#mainNav li{float:none; display:block;}
 		nav#mainNav a.active:after{right:1px;top:22px;}
 		.topSocials{display:none;}
 		nav#mainNav li a{padding:3px 0px;display:inline-block;}
 		.mobileBtn{display: inline-block;float: right;margin-right: 190px;margin-top: -51px;position: relative;}
-		
-		
+
+
 		.shortBtn{right:-75px;top:-340px;}
 		.imgAbout{height:40%;width:100%;}
 		.aboutContent {margin-left: 0;}
 		.overview{margin-top: 100%;}
-		
+
 		.employment, .education{margin-top:50px;}
 		.employment:before, .education:before{background:none;}
 		.dtIco {margin-left:10px;}
@@ -899,7 +935,7 @@ ul#category li a:hover {
 			-o-transform:rotate(0deg);
 			-ms-transform:rotate(0deg);
 		}
-		
+
 		.det:after {
 		    left: 10px;
 		    top: -13px;
@@ -909,48 +945,48 @@ ul#category li a:hover {
 			-o-transform:rotate(0deg);
 			-ms-transform:rotate(0deg);
 		}
-		
-		
+
+
 		.item{width: 420px !important;}
 		.item a .desc {left: 50px;width: 76.3%;}
-		
-		
+
+
 		.cForm form{width:400px;}
 		.cForm input[type="text"], .respondForm input[type="email"]{width:400px;}
 		.cForm textarea{width:400px;}
-		
+
 		.footerholder{text-align:center;}
 		.socialsFooter{float:none;margin-top:10px;}
 
 
-	
+
 }
 
 
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width:479px) {
-	
+
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
-	
+
 	#loaderInner {margin: -50px 0 0 -30px;}
 	.dtIco span.date{font-family: 'open_sansregular';font-style:italic;}
 	.logo, nav#mainNav{float:none;}
 		nav#mainNav{margin-right:0;margin-top:69px;}
-		
+
 		nav#mainNav ul{display:none;margin-bottom:10px;}
 		nav#mainNav li{float:none; display:block;}
 		nav#mainNav a.active:after{right:1px;top:22px;}
 		.topSocials{display:none;}
 		nav#mainNav li a{padding:3px 0px;display:inline-block;}
 		.mobileBtn{display: inline-block;float: right;margin-right: 135px;margin-top: -51px;position: relative;}
-		
-		
+
+
 		.shortBtn{right:-10px;top:-290px;}
 		.imgAbout{height:20%;width:100%;}
 		.aboutContent {margin-left: 0;}
 		.overview{margin-top: 100%;}
-		
+
 		.employment, .education{margin-top:50px;}
 		.employment:before, .education:before{background:none;}
 		.dtIco {margin-left:10px;}
@@ -964,7 +1000,7 @@ ul#category li a:hover {
 			-o-transform:rotate(0deg);
 			-ms-transform:rotate(0deg);
 		}
-		
+
 		.det:after {
 		    left: 10px;
 		    top: -13px;
@@ -974,21 +1010,21 @@ ul#category li a:hover {
 			-o-transform:rotate(0deg);
 			-ms-transform:rotate(0deg);
 		}
-		
+
 		ul#category li{display:block;}
 		.item{width: 300px !important;}
-		
-		
+
+
 		.cForm form{width:300px;}
 		.cForm input[type="text"], .respondForm input[type="email"]{width:300px;}
 		.cForm textarea{width:300px;}
-		
+
 		.footerholder{text-align:center;}
 		.socialsFooter{float:none;margin-top:10px;}
-	
 
 
-	
+
+
 }
 
 
