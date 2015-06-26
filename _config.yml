@@ -1,10 +1,7 @@
 # Site settings
 title: Bruno Meira Melhado
 email: bruno.meiramelhado@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "Playing with ruby everyday, learning about ruby, rails, rspec, js, css, tdd. Getting connected with whats happening on ruby and rails comunity."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://meirabruno.github.io" # the base hostname & protocol for your site
 twitter_username: brunomeira
@@ -12,7 +9,6 @@ github_username:  meirabruno
 permalink: /:title:output_ext
 
 # Build settings
-highlighter: rouge
 markdown: kramdown
 sass:
   sass_dir: _sass
