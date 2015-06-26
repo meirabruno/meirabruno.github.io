@@ -36,10 +36,8 @@ layout: default
           <h1 class="titleBig">posts</h1>
             <div class="postList">
               {% for post in site.posts %}
-
                 <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
                 <h1 class="titleSmall"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-
               {% endfor %}
             </div>
         </div>
