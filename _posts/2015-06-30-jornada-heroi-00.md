@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jornada do Herói"
-date:   2015-30-06 10:31:16
+date:   2015-06-30 10:31:16
 author: Bruno Meira
 categories: inicio jornadaheroi
 resume: Minha jornada
