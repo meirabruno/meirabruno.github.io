@@ -26,21 +26,12 @@ layout: default
           {% include language_skills.html %}
           {% include personal_skills.html %}
           <div class="getCv">
-            <a href="https://www.dropbox.com/s/489d2r6ndt08pnz/Bruno%20Meira%20Melhado.pdf?dl=0" target="_blank"><i class="icon-down-circled"></i>
+            <a href="https://www.dropbox.com/s/3mewdxu1cj67ak3/Bruno%20Meira%20Melhado.pdf?dl=0" target="_blank"><i class="icon-down-circled"></i>
               <h3>Download My CV</h3>
             </a>
           </div>
         </div>
       </div>
-      <div id="posts" class="intro">
-          <h1 class="titleBig">posts</h1>
-            <div class="postList">
-              {% for post in site.posts %}
-                <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-                <h1 class="titleSmall"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-              {% endfor %}
-            </div>
-        </div>
     </section>
     {% include footer.html %}
   </div>
